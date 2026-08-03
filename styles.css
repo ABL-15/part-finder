@@ -11,3 +11,17 @@ flex-direction: column;
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family:Source Serif 4;
+	letter-spacing:-0.06em;
+	font-weight:normal;
+}
+
+article p {
+	font-size:20px;
+}
+
+header a {
+	font-family:Source Serif 4;
+	font-size:large;
+	color:#000000;
