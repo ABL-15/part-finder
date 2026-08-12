@@ -117,3 +117,34 @@ nav li {
   text-align: center;
   height: 40px;
   line-height: 40px; 
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #268F76;
+	z-index: 100;
+	box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+	}
+
+footer nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 10px 0;
+	list-style: none;
+	height: 30px;
+  line-height: 20px; 
+	}
+
+footer nav ul li {
+	margin: 0 10px;
+	height: 20px;
+	line-height: 20px;
+	}
+.social-img {
+	height: 20px;
+	}
