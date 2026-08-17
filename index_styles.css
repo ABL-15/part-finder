@@ -160,13 +160,7 @@ footer nav ul li {
 }
 
 .welcome-img {
-    width: 100px;
-    height: auto;
-    object-fit: cover;
-}
-
-.welcomeleft-img {
-    width: 100px;
+    width: 190px;
     height: auto;
     object-fit: cover;
 }
@@ -186,7 +180,7 @@ footer nav ul li {
 }
 
 .showcase-img {
-    width: 100px;
+    width: 150px;
     max-width: 400px;
     height: auto;
     border: 1px solid transparent;
