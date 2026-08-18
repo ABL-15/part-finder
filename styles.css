@@ -193,3 +193,33 @@ footer nav ul li {
     max-width: 100%;
     height: auto;
 }
+
+.why-img {
+	width: 190px;
+	height: auto;
+	object-fit: cover;
+}
+
+.partners-img {
+	width: 190px;
+	height: auto;
+	object-fit: cover;
+}
+
+.why-bar {
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	padding: 10px;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.partners-bar {
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	padding: 10px;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
