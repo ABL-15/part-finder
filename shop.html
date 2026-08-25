@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
         rel="stylesheet">
+    <script src="search.js"></script>
 </head>
 
 <body>
@@ -30,20 +31,19 @@
                     </div>
             </ul>
         </nav>
-        <!--JavaScript for search bar-->
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const searchInput = document.getElementById('searchInput');
-
-                searchInput.addEventListener('keypress', (event) => {
-                    if (event.key !== 'Enter') return; // Only search on Enter key press
-                    const searchTerm = event.target.value.toLowerCase(); // Get search term and convert to lowercase
-                    window.find(searchTerm);
-                });
-            });
-        </script>
     </header>
     <h1>Shop</h1>
+
+    <main>
+	<!--Setting a Grid-->
+	<div class="inventory-grid">
+		<!--Items in Shop-->
+		<div class="inventory-item">
+			<img src="images/testing.jpg" alt="Item 1">
+			<h3>Testing</h3>
+			<p>$30.00</p>
+			<button>Add to Cart</button>
+		</div>
 
     <footer>
         <nav>
