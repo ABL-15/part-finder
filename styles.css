@@ -129,7 +129,7 @@ nav li {
 }
 
 footer {
-	position: fixed;
+	/* position: fixed; */
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -183,9 +183,7 @@ footer nav ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Vertically centers the images if they have different heights */
     width: 100%;
-    /* Ensures the container stretches fully */
 }
 
 /* Optional: Ensure responsive sizing for your images */

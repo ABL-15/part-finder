@@ -228,7 +228,7 @@ footer nav ul li {
     /* Ensures the container stretches fully */
 }
 
-/* Optional: Ensure responsive sizing for your images */
+
 .outer-container img {
     max-width: 100%;
     height: auto;
